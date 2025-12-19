@@ -1,0 +1,128 @@
+*{
+    margin: 0px;
+    padding:0px;
+    box-sizing:border-box;
+   
+}
+.page{
+     text-shadow: 1px 1px slategray;
+}
+body{
+    background-color:#faa2a2;
+
+}
+section{
+    padding:80px 100px;
+    align-items: center;
+    justify-content: center;
+    position:relative;
+    color:white;
+    display: flex;
+}
+.container{
+    align-items: center;
+    justify-content: center;
+    position:relative;
+    display:flex;
+    flex-direction:column;
+}
+.main-title{
+    font-size: 3em;
+    margin-bottom:50px;
+}
+.content{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    position:relative;
+    width:1150px;
+}
+.content .image{
+    overflow:hidden;
+    height:800px;
+    width:800px;
+    position:relative;
+}
+.content .image img{
+    height:100%;
+    width:100%;
+    left:0;
+    top:0;
+    z-index: index 111;
+    position: relative;
+    object-fit: cover;
+    border-radius: 10px;
+
+
+}
+.content .text-box{
+    z-index: 222;
+    background-color:rgba(255,255,255,0.1);
+    border-radius: 10px;
+    backdrop-filter: blur(20px);
+    padding:40px;
+    max-width:400px;
+    border: 1px solid rgba(255,255,255,0.1);
+    border-radius: 10px;
+    transform: translate(-80px,50px);
+
+
+}
+.content .text-box h3{
+    font-size:2em;
+    margin-bottom:10px;
+}
+.media-icons a{
+    color:#fff;
+    font-size: 2em;
+    margin:40px;
+    padding:40px;
+}
+.sec_3 .image{
+    margin-bottom: 40px;
+}
+.section-title{
+font-size:3em;
+margin-bottom: 80px;
+}
+html{
+    scroll-behavior: smooth;
+}
+form{
+    color:#0c0c0c;
+    display:block;
+    justify-content: center;
+    position:relative;
+    margin:40px auto;
+    font-size: 1.2em;
+    width:450px;
+    padding:30px;
+    background-color:aliceblue;
+    border-radius: 12px;
+    text-shadow: 0.5px 0.5px slategray;
+    box-shadow: 0px 8px 20px rgba(0,0,0,0.3);
+}
+.learn{
+    text-align: center;
+}
+
+
+  
+.main-title{
+    color:#5a1a1a;
+   
+}
+#submit{
+  width: 100%;
+  padding: 12px;
+  background:  #0c88aa;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#submit:hover {
+  background: #0c88aa;
+}
